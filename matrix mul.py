@@ -17,8 +17,8 @@ class Matrix:
         return result
 
 
-m1 = Matrix([[1, 2], [3, 4]])
-m2 = Matrix([[5, 6], [7, 8]])
+m1 = Matrix([[2, 1, 2], [3, -1, 4]])
+m2 = Matrix([[0, 1, 2, 3], [-1, -2, 0, 1], [9, 10, -1, 4]])
 
 res = m1.multiply(m2)
 
