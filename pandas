@@ -5,7 +5,7 @@ data1 = {
     "marks":['0','50','50']
     }
 data2 = {
-    "name": ["swarup","nitesh","arjya"],
+    "name": ["shreashi","ankur","riya"],
     "roll": ["166","138","30"],
     "attendance":["30","40","50"]
     }
