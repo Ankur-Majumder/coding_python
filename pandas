@@ -1,0 +1,17 @@
+import pandas as pd
+data1 = {
+    "name": ["gopal","swarup","nitesh"],
+    "roll": ["140","166","138"],
+    "marks":['0','50','50']
+    }
+data2 = {
+    "name": ["swarup","nitesh","arjya"],
+    "roll": ["166","138","30"],
+    "attendance":["30","40","50"]
+    }
+df1 = pd.DataFrame(data1)
+df2 = pd.DataFrame(data2)
+
+df_merge = pd.merge(df1,df2,on=["roll","name"],how="outer")
+
+print(df_merge)
